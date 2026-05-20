@@ -21,6 +21,7 @@ public class Calculator {
     public double[] solver(double a, double b) {
         double x = div(dif(0, b), a);
         return new double[]{x};
+    }
     public int add(int a, int b){
         return a + b;
     }
